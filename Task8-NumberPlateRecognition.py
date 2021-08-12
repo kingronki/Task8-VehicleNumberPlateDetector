@@ -58,7 +58,7 @@ def display_img(img):
 # In[47]:
 
 
-inputImg = cv2.imread('image1.jpeg')
+inputImg = cv2.imread('Path/imagename.jpeg')
 inpImg, plate = plate_detect(inputImg)
 display_img(inpImg)
 display_img(plate)
